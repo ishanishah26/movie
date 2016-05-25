@@ -1,0 +1,15 @@
+<table>
+
+
+<% for(var i = 0; i < city.length; i++) { %>
+              <tr>
+
+                <td><%= city[i].city_id %></td>
+                <td><%= city[i].city_name %></td>
+
+              </tr>
+          <% } %>
+          </table>
+
+
+https://editor.datatables.net/examples/inline-editing/simple.html
